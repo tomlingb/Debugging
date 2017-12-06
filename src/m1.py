@@ -7,6 +7,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 import rosegraphics as rg
 
+
 ########################################################################
 #
 # TODO: 2. READ these instructions, ASKING QUESTIONS as needed.
@@ -81,6 +82,7 @@ import rosegraphics as rg
 ########################################################################
 
 def main():
+    print(17 // 1)
     """ Calls the   TEST   functions in this module. """
     run_test_all()
 
