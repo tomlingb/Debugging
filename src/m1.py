@@ -82,7 +82,6 @@ import rosegraphics as rg
 ########################################################################
 
 def main():
-    print(17 // 1)
     """ Calls the   TEST   functions in this module. """
     run_test_all()
 
@@ -155,7 +154,7 @@ def run_test_all():
 
 
 # ----------------------------------------------------------------------
-# TODO: 3. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
+# DONE: 3. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
 #          to correct the mistake(s) in the following function.
 # ----------------------------------------------------------------------
 def broken_1(circle, window):
@@ -175,7 +174,7 @@ def broken_1(circle, window):
       :type window: rg.RoseWindow
     """
     circle.attach_to(window)
-    circle2 = rg.Circle(circle.radius * 2)
+    circle2 = rg.Circle(circle.center, circle.radius * 2)
     circle2.attach_to(window)
     window.render()
 
